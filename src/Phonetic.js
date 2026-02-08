@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   function playAudio() {
@@ -24,7 +25,7 @@ export default function Phonetic(props) {
       <button onClick={playAudio} className="audio-button">
         🔊
       </button>{" "}
-      {props.phonetic}
+      <span className="phonetic-text"> {props.phonetic}</span>
     </div>
   );
 }

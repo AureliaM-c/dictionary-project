@@ -1,0 +1,26 @@
+.audio-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #9670f4;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.audio-button:hover {
+  background-color: #5cbed6;
+}
+
+.audio-button:active {
+  background-color: #6a4ec4;
+  transform: scale(0.95);
+}
+
+.phonetic-text {
+  font-size: 18px;
+  font-weight: 20px;
+}
